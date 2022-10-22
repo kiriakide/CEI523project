@@ -9,8 +9,8 @@ print(x[2:])
 print(x[:])
 print()
 
-areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
-
-# Correct the bathroom area
-areas[-1]= 10.50
+areas = ["hallway", 11.25, "kitchen", 18.0,
+        "chill zone", 20.0, "bedroom", 10.75,
+         "bathroom", 10.50, "poolhouse", 24.5,
+         "garage", 15.45]
 print(areas)
